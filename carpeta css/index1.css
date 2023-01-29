@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display & display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+background: rgb(119, 94, 74);
+display: flex;
+justify-content:center;
+align-items: center;
+min-height:100vh;
+}
+.container
+{
+position:relative;
+width: 100%; 
+max-width: 1000px;
+min-height: 1000px;
+background:rgb(16, 152, 194) ;
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 35px rgba(0, 0,0,0.1);
+}
+.container .left_Side
+{
+position: relative;
+background: #f7ab6d;
+padding: 40px;
+}
+.perfil
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 29px;
+    border-bottom: 1px solid rgba(255, 255,255,0.2);
+}
+.perfil.imgbx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.perfil h2
+{
+
+font-size: 1.5em;
+margin-top: 20px;
+text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+line-height: 1.4px;
+}
+
+.container .right_Side
+{
+position: relative;
+background:rgb(233, 164, 137);
+padding: 40px;
+}
